@@ -23,7 +23,7 @@
    cd client
    npm install
    ```
-3. go to the parent folder of mern-ecommerce & create .env for connection, JWT_SECRET, BRAINTREE_MERCHANT_ID, BRAINTREE_PUBLIC_KEY and BRAINTREE_PRIVATE_KEY.
+3. go to the parent folder of mern-ecommerce & create .env for connection to other APIs
 
    ```bash
    cd mern-ecommerce
@@ -36,10 +36,6 @@
 
    ```env
    MONGODB_URI=YOUR_MONGODB_URI
-   JWT_SECRET=YOUR_JWT_SECRET
-   BRAINTREE_MERCHANT_ID=YOUR_BRAINTREE_MERCHANT_ID
-   BRAINTREE_PUBLIC_KEY=YOUR_BRAINTREE_PUBLIC_KEY
-   BRAINTREE_PRIVATE_KEY=YOUR_BRAINTREE_PRIVATE_KEY
    ```
 
 4. create another .env file inside client directory for REACT_APP_API_URL.
